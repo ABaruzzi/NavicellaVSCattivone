@@ -1,0 +1,109 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18-feb-2019, 10.44.12
+    Author     : tss
+*/
+
+
+#navicella {
+    position: absolute;
+    transform: rotateZ(90deg);
+    transition: 1sec;
+
+
+}
+
+#navicellaImage {
+    height: 50px;
+    transition: 1sec;
+
+}
+
+#schermo {
+
+    background-color: black;
+    width: 1100px;
+    height: 1100px;
+
+}
+
+
+.cattivo{
+    position: absolute;
+    transition: 1sec;
+}
+
+.cattivoImage{
+
+    height: 80px;
+    transition: 1sec;
+}
+
+#fineGioco{
+    position: absolute;
+    background-color: darkgoldenrod;
+    height: 200px;
+    width: 800px;
+    text-align: center;
+    font-size: 80px;
+    top: 400px;
+    left: 150px;
+    display: none;
+    line-height: 200px;
+}
+
+#missile{
+    position: absolute;
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    top: 100px;
+    left: 100px;
+    display: none;
+    border-radius: 10px;
+}
+
+#punteggio{
+    position: absolute;
+    background-color: darkgoldenrod;
+    height: 40px;
+    width: 200px;
+    top: 75px;
+    left: 1110px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+#tab{
+    position: absolute;
+    background-color: darkgoldenrod;
+    height: 40px;
+    width: 200px;
+    top: 30px;
+    left: 1110px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+#stella{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 500px;
+    left: 500px;
+   }
+   
+   #mineral{
+       
+    height: 60px;
+    width: 60px;  
+       
+   }
